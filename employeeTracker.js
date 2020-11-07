@@ -87,7 +87,7 @@ function exit() {
 // get employees
 function getEmployees() {
   // build query
-  const getEmployeeeQry = `SELECT employee.id, 
+  const getEmployeesQry = `SELECT employee.id, 
                     employee.first_name, 
                     employee.last_name,
                     role.title as role, 
